@@ -72,13 +72,27 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Customer Testimonial */}
+        <section className="bg-white py-16 lg:py-24">
+          <div className="max-w-[900px] mx-auto px-6">
+            <div className="border-l-4 border-[var(--color-gold)] pl-8">
+              <blockquote className="text-xl lg:text-2xl mb-6 italic text-[var(--color-black-light)] font-[var(--font-secondary)]">
+                "It's not only easy to access and use but it allows you to show content that is tailored to the conversation you're having with your clients. It definitely helps us book business faster, especially in this market where everything is last minute."
+              </blockquote>
+              <div className="text-lg font-semibold">
+                Jonathan Leonardis
+                <span className="block text-sm text-[var(--color-gray-placeholder)] font-normal font-[var(--font-secondary)]">
+                  Global Director of Sales
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ROI Metrics Section */}
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h2 className="text-3xl lg:text-4xl text-center mb-16 font-bold">
-              Results That Matter
-            </h2>
-            <div className="grid md:grid-cols-3 gap-12">
+            <div className="grid md:grid-cols-3 gap-12 mb-12">
               <div className="text-center">
                 <div className="text-5xl lg:text-6xl font-bold text-[var(--color-azure)] mb-4">17x</div>
                 <p className="text-lg font-[var(--font-secondary)]">
@@ -98,22 +112,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Customer Testimonial */}
-        <section className="bg-white py-16 lg:py-24">
-          <div className="max-w-[900px] mx-auto px-6">
-            <div className="border-l-4 border-[var(--color-gold)] pl-8">
-              <blockquote className="text-xl lg:text-2xl mb-6 italic text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                "It's not only easy to access and use but it allows you to show content that is tailored to the conversation you're having with your clients. It definitely helps us book business faster, especially in this market where everything is last minute."
-              </blockquote>
-              <div className="text-lg font-semibold">
-                Jonathan Leonardis
-                <span className="block text-sm text-[var(--color-gray-placeholder)] font-normal font-[var(--font-secondary)]">
-                  Global Director of Sales
-                </span>
-              </div>
+            <div className="text-center">
+              <Link
+                href="/why-us"
+                className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              >
+                View More Results
+              </Link>
             </div>
           </div>
         </section>
@@ -121,15 +126,25 @@ export default function Home() {
         {/* Platform Overview Section */}
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl lg:text-5xl text-center mb-20 font-bold">
+              World's #1 Hospitality Sales Enablement Platform
+            </h2>
+
             {/* Subsection 1: Engaging Virtual & In-Person Sales */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Engaging Virtual & In-Person Sales
-                </h2>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed">
+                </h3>
+                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
                   Empower your sales team with immersive virtual tours and interactive presentations that bring your spaces to life. Whether meeting in person or connecting remotely, deliver compelling experiences that help prospects visualize their events and drive faster booking decisions.
                 </p>
+                <Link
+                  href="/solutions"
+                  className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+                >
+                  Learn About Our Platform
+                </Link>
               </div>
               <div className="order-first md:order-last">
                 <div className="bg-white p-4 rounded-lg shadow-xl">
@@ -154,30 +169,42 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Virtual Media Production
-                </h2>
+                </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
                   Professional 360° photography, 3D models, drone video, and CGI production services that create stunning immersive assets for your property.
                 </p>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed">
+                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
                   Our production team handles everything from capture to post-processing, delivering high-quality virtual tours and media that showcase your venue at its best.
                 </p>
+                <Link
+                  href="/solutions"
+                  className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+                >
+                  View Our Media Offerings
+                </Link>
               </div>
             </div>
 
             {/* Subsection 3: Upgraded Channel Distribution */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Upgraded Channel Distribution
-                </h2>
+                </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
                   Distribute your immersive content across all your sales channels - from your website and proposals to booking platforms and third-party sites.
                 </p>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed">
+                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
                   Seamless integrations ensure prospects can explore your venue wherever they discover you, driving engagement and conversion at every touchpoint.
                 </p>
+                <Link
+                  href="/integrations"
+                  className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+                >
+                  Learn More
+                </Link>
               </div>
               <div className="order-first md:order-last">
                 <div className="bg-white p-4 rounded-lg shadow-xl">
@@ -202,15 +229,21 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Immersive Selling Strategy
-                </h2>
+                </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
                   Strategic consulting and best practices to maximize the impact of your immersive content and sales enablement tools.
                 </p>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed">
+                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
                   Our team works with you to develop a customized approach that aligns with your sales process, team structure, and business goals.
                 </p>
+                <Link
+                  href="/request-demo"
+                  className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+                >
+                  Book a Consultation
+                </Link>
               </div>
             </div>
           </div>
@@ -219,6 +252,32 @@ export default function Home() {
         {/* Product Solutions - Tabbed Interface */}
         <section className="bg-white py-16 lg:py-24">
           <TabbedSolutions />
+        </section>
+
+        {/* Customer Success Metrics */}
+        <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <div className="grid md:grid-cols-3 gap-12">
+              <div className="text-center">
+                <div className="text-5xl lg:text-6xl font-bold mb-4">100%</div>
+                <p className="text-lg lg:text-xl font-[var(--font-secondary)]">
+                  Strongly recommend Visiting Media
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl lg:text-6xl font-bold mb-4">115-400+</div>
+                <p className="text-lg lg:text-xl font-[var(--font-secondary)]">
+                  Save 115-400+ hours per salesperson annually
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl lg:text-6xl font-bold mb-4">30-50%</div>
+                <p className="text-lg lg:text-xl font-[var(--font-secondary)]">
+                  Average decrease in sales cycle length
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Customer Stories Section */}
