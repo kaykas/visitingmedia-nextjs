@@ -10,21 +10,36 @@ export default function Home() {
       <Header />
       <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="bg-[var(--color-black)] text-white py-24 lg:py-32">
+        <section className="bg-white py-24 lg:py-32">
           <div className="max-w-[1260px] mx-auto px-6">
-            <div className="max-w-4xl">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight uppercase">
-                We make selling spaces and experiences simple for hospitality
-              </h1>
-              <h2 className="text-xl lg:text-2xl mb-8 text-[var(--color-azure-light)] font-[var(--font-secondary)]">
-                Delivering technology that leverages immersion to drive competitive advantage
-              </h2>
-              <Link
-                href="/request-demo"
-                className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
-              >
-                Start Your Journey Here
-              </Link>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Text Content - Left Side */}
+              <div>
+                <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight uppercase text-[var(--color-black)]">
+                  We make selling spaces and experiences simple for hospitality
+                </h1>
+                <h2 className="text-xl lg:text-2xl mb-8 text-[var(--color-black-light)] font-[var(--font-secondary)]">
+                  Delivering technology that leverages immersion to drive competitive advantage
+                </h2>
+                <Link
+                  href="/request-demo"
+                  className="inline-block bg-[var(--color-button-bg)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure)] transition-colors font-semibold uppercase text-sm tracking-wider"
+                >
+                  Start Your Journey Here
+                </Link>
+              </div>
+
+              {/* Device Mockup - Right Side */}
+              <div className="order-first lg:order-last">
+                <Image
+                  src="/images/mockups/four-device-mockup.png"
+                  alt="Platform shown across multiple devices"
+                  width={600}
+                  height={450}
+                  className="w-full h-auto"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -102,9 +117,12 @@ export default function Home() {
         {/* ROI Metrics Section */}
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
+            <h2 className="text-3xl lg:text-4xl text-center mb-4 font-bold">
               Real Customer-Reported ROI
             </h2>
+            <p className="text-xl text-center mb-12 font-[var(--font-secondary)]">
+              Hotels see a true uplift in revenue with our solutions
+            </p>
             <div className="grid md:grid-cols-3 gap-12 mb-12">
               <div className="text-center">
                 <div className="text-5xl lg:text-6xl font-bold text-[var(--color-azure)] mb-4">17x</div>
@@ -139,13 +157,16 @@ export default function Home() {
         {/* Platform Overview Section */}
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h2 className="text-3xl lg:text-5xl text-center mb-20 font-bold">
+            <h2 className="text-3xl lg:text-5xl text-center mb-6 font-bold">
               World's #1 Hospitality Sales Enablement Platform
             </h2>
+            <p className="text-xl text-center mb-20 max-w-4xl mx-auto font-[var(--font-secondary)]">
+              We are the leading software company delivering sales enablement solutions to the hospitality industry
+            </p>
 
             {/* Subsection 1: Engaging Virtual & In-Person Sales */}
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
-              <div>
+            <div className="mb-24">
+              <div className="max-w-3xl mx-auto text-center">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Engaging Virtual & In-Person Sales
                 </h3>
@@ -159,29 +180,11 @@ export default function Home() {
                   LEARN ABOUT OUR PLATFORM
                 </Link>
               </div>
-              <div className="order-first md:order-last">
-                <div className="bg-white p-4 rounded-lg shadow-xl">
-                  <div className="aspect-[4/3] bg-[var(--color-azure-lighter)] rounded flex items-center justify-center">
-                    <span className="text-[var(--color-azure)] font-semibold">Virtual Sales Mockup</span>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Subsection 2: Virtual Media Production */}
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
-              <div className="order-last md:order-first">
-                <div className="bg-white p-4 rounded-lg shadow-xl">
-                  <Image
-                    src="/images/mockups/ipad-tripadvisor.png"
-                    alt="iPad showing virtual tour on TripAdvisor"
-                    width={600}
-                    height={450}
-                    className="w-full h-auto rounded"
-                  />
-                </div>
-              </div>
-              <div>
+            <div className="mb-24">
+              <div className="max-w-3xl mx-auto text-center">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Virtual Media Production
                 </h3>
