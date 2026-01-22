@@ -14,10 +14,13 @@ export default function SolutionsPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-4xl lg:text-6xl font-bold mb-6 uppercase">
-                  Taking Immersive Sales to the Next Level
+                  TAKING IMMERSIVE SALES TO THE NEXT LEVEL
                 </h1>
+                <p className="text-xl lg:text-2xl text-[var(--color-azure-light)] font-[var(--font-secondary)] mb-4">
+                  SalesHub™ is an immersive selling platform that empowers hospitality sales teams to close bookings faster and more efficiently by supporting immersive selling strategies and streamlining processes.
+                </p>
                 <p className="text-xl lg:text-2xl text-[var(--color-azure-light)] font-[var(--font-secondary)]">
-                  SalesHub is an immersive selling platform that empowers hospitality sales teams to close bookings faster and more efficiently by supporting immersive selling strategies and streamlining processes.
+                  The platform blends traditional content with immersive assets like 360º photos, 3D models, and CGI, providing advanced tools that enhance productivity and customer engagement.
                 </p>
               </div>
               <div className="relative h-[400px] lg:h-[500px]">
@@ -118,13 +121,13 @@ export default function SolutionsPage() {
         <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-16 font-bold">
-              Key Features
+              Features and Benefits
             </h2>
             <div className="grid md:grid-cols-3 gap-12">
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--color-azure)]">Experience</h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  Help buyers make quicker decisions with tailored proposals that combine digital assets into a single, shareable link.
+                  Help buyers make quicker decisions with tailored proposals that combine digital assets into a single, shareable link using the Experience feature.
                 </p>
               </div>
               <div>
@@ -136,7 +139,7 @@ export default function SolutionsPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--color-azure)]">Distribution & Integration</h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  Elevate your channel distribution strategy by integrating immersive content right at the top of the funnel, powered by API technology.
+                  Elevate your channel distribution strategy by integrating immersive content right at the top of the funnel, powered by API technology and distribution features.
                 </p>
               </div>
             </div>
@@ -147,28 +150,25 @@ export default function SolutionsPage() {
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-16 font-bold">
-              Who Benefits Most
+              Best Fit For
             </h2>
             <div className="space-y-12 max-w-4xl mx-auto">
               <div className="bg-white p-8 shadow-lg rounded">
                 <h3 className="text-2xl font-bold mb-4 text-[var(--color-azure)]">Sales Teams</h3>
-                <p className="text-lg text-[var(--color-black-light)] mb-4 font-[var(--font-secondary)]">
-                  Teams can access and share immersive and traditional assets to showcase property features.
-                </p>
-                <p className="text-lg font-semibold text-[var(--color-azure)]">
-                  Delivering a 17x ROI within their first quarter of using the tool.
+                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
+                  Sales teams can easily access and share various immersive and traditional assets to showcase each property's unique features. This helps them spend less time managing content and more time selling and connecting with potential customers. By removing the hassle of managing sales assets, teams often see a 17x ROI within their first quarter of using the tool.
                 </p>
               </div>
               <div className="bg-white p-8 shadow-lg rounded">
                 <h3 className="text-2xl font-bold mb-4 text-[var(--color-azure)]">Front Desk & Concierge</h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  These teams can enhance upselling through quick shares via email, text, or QR codes, driving ancillary revenue from spa, F&B, and other amenities.
+                  Teams can quickly and easily enhance their upselling process through quick shares through email, text or QR codes. Personalize what's sent to appeal to the specific interests of the guest to engage with local attractions. SalesHub is an easy way to drive ancillary revenue for every space available, from spa, to F&B, to pool cabanas and more.
                 </p>
               </div>
               <div className="bg-white p-8 shadow-lg rounded">
                 <h3 className="text-2xl font-bold mb-4 text-[var(--color-azure)]">Above-Property Teams</h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  Central control over sales assets with access to engagement data and portfolio-level insights for strategy refinement.
+                  Above-property teams have control over sales assets and gain quick access to collateral the sales teams are using at the property level, which is centralized in one single hub. They also have access to engagement and usage data that enables them to adapt and refine their sales strategies for their entire portfolio using insights from Analytics.
                 </p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function SolutionsPage() {
               href="/request-demo"
               className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Compare Products
+              LEARN MORE
             </Link>
           </div>
         </section>
@@ -195,12 +195,12 @@ export default function SolutionsPage() {
           <div className="max-w-[900px] mx-auto px-6">
             <div className="border-l-4 border-[var(--color-gold)] pl-8">
               <blockquote className="text-xl lg:text-2xl mb-6 italic text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                "SalesHub lets you bundle content, save time, and show only what matters. The voice recording option is fantastic."
+                "Now what's great about SalesHub is we can package it. I can bundle that [content], save you time and just show you the stuff you want to see. And now obviously they have the new voice recording option too which is great. I could just do it all virtually and leave a verbal description if I need to what you need to look at or what we're talking about. I think that's fantastic. I think for hotels that don't have it, it's a miss."
               </blockquote>
               <div className="text-lg font-semibold">
                 Dan Shaughnessy
                 <span className="block text-sm text-[var(--color-gray-placeholder)] font-normal font-[var(--font-secondary)]">
-                  Director of Sales and Marketing, Marriott Marquis San Diego Marina
+                  Director of Sales and Marketing – Marriot Marquis San Diego Marina
                 </span>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function SolutionsPage() {
               href="/customers"
               className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Read More
+              READ MORE
             </Link>
           </div>
         </section>
@@ -226,13 +226,13 @@ export default function SolutionsPage() {
         <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-8">
-              Ready to Transform Your Sales Process?
+              Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
               className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Request a Demo
+              Request Demo
             </Link>
           </div>
         </section>
