@@ -23,17 +23,17 @@ export default function IntegrationsPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="bg-[var(--color-azure)] text-white py-24 lg:py-32">
+        <section className="bg-white py-24 lg:py-32">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 uppercase">Integration Catalog</h1>
-            <p className="text-xl lg:text-2xl max-w-4xl font-[var(--font-secondary)]">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 uppercase text-[var(--color-black)]">Integration Catalog</h1>
+            <p className="text-xl lg:text-2xl max-w-4xl font-[var(--font-secondary)] text-[var(--color-black-light)]">
               Distribute Smarter. Showcase your virtual tours where they have the most impact—across your brand websites, proposals, booking channels, and third-party platforms.
             </p>
           </div>
         </section>
 
         {/* Value Drivers */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-8 font-bold">
               Value Drivers
