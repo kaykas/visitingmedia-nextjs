@@ -7,12 +7,12 @@ export default function RequestDemoPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="bg-[var(--color-gold)] text-[var(--color-black)] py-24">
+        <section className="bg-white py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
-            <h1 className="text-3xl lg:text-4xl font-bold mb-6 max-w-4xl mx-auto">
+            <h1 className="text-3xl lg:text-4xl font-bold mb-6 max-w-4xl mx-auto text-[var(--color-black)]">
               Receive a personal platform demonstration and get a custom quote for your properties.
             </h1>
-            <p className="text-xl lg:text-2xl max-w-4xl mx-auto font-[var(--font-secondary)]">
+            <p className="text-xl lg:text-2xl max-w-4xl mx-auto font-[var(--font-secondary)] text-[var(--color-black-light)]">
               Our expert sales team will create a bespoke content plan to optimize your virtual selling opportunity.
             </p>
           </div>
