@@ -419,14 +419,14 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-[var(--color-black)]">
               Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
-              className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              className="inline-block bg-[var(--color-azure)] text-white px-12 py-5 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
               Request Demo
             </Link>

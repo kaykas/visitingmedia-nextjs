@@ -20,7 +20,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/integrations" className="text-[var(--color-gray-light)] hover:text-white transition-colors font-[var(--font-secondary)]">
+                <Link href="/integration" className="text-[var(--color-gray-light)] hover:text-white transition-colors font-[var(--font-secondary)]">
                   Integration Catalog
                 </Link>
               </li>
