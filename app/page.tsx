@@ -102,6 +102,9 @@ export default function Home() {
         {/* ROI Metrics Section */}
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
+              Real Customer-Reported ROI
+            </h2>
             <div className="grid md:grid-cols-3 gap-12 mb-12">
               <div className="text-center">
                 <div className="text-5xl lg:text-6xl font-bold text-[var(--color-azure)] mb-4">17x</div>
@@ -127,7 +130,7 @@ export default function Home() {
                 href="/why-us"
                 className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
               >
-                View More Results
+                VIEW MORE RESULTS
               </Link>
             </div>
           </div>
@@ -204,7 +207,7 @@ export default function Home() {
                   Distribute immersive media through websites, brand.com, OTAs, booking engines, ebrochures, proposal tools and more, leveraging an immersive sales and marketing strategy. Our Level 1 Certified Customer Support team works with property and above-property stakeholders to maximize effectiveness on key channels.
                 </p>
                 <Link
-                  href="/integrations"
+                  href="/integration"
                   className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
                 >
                   LEARN MORE
@@ -285,7 +288,7 @@ export default function Home() {
         <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
-              Customer Success Stories
+              Customer Stories
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {/* Hilton Garden Inn Case Study */}
@@ -370,7 +373,7 @@ export default function Home() {
         <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
-              Integration Partners
+              Enhance Digital Channels
             </h2>
             <div className="flex flex-wrap justify-center items-center gap-12 lg:gap-16">
               <div className="flex items-center justify-center h-16">
@@ -412,10 +415,10 @@ export default function Home() {
             </div>
             <div className="text-center mt-12">
               <Link
-                href="/integrations"
+                href="/integration"
                 className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
               >
-                View All Integrations
+                View Our Integration Catalog
               </Link>
             </div>
           </div>
@@ -431,7 +434,7 @@ export default function Home() {
               href="/request-demo"
               className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Request a Demo
+              Request Demo
             </Link>
           </div>
         </section>
