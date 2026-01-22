@@ -58,7 +58,7 @@ export default function Header() {
                   <Link href="/why-us#support" className="block px-6 py-3 text-[var(--color-black)] hover:bg-[var(--color-gray-light)] hover:text-[var(--color-azure)] transition-colors">
                     Support & Training
                   </Link>
-                  <Link href="/integrations" className="block px-6 py-3 text-[var(--color-black)] hover:bg-[var(--color-gray-light)] hover:text-[var(--color-azure)] transition-colors">
+                  <Link href="/integration" className="block px-6 py-3 text-[var(--color-black)] hover:bg-[var(--color-gray-light)] hover:text-[var(--color-azure)] transition-colors">
                     Integration Catalog
                   </Link>
                   <Link href="/why-us#roi" className="block px-6 py-3 text-[var(--color-black)] hover:bg-[var(--color-gray-light)] hover:text-[var(--color-azure)] transition-colors">
@@ -195,7 +195,7 @@ export default function Header() {
                   <Link href="/why-us#support" className="block px-8 py-3 text-[var(--color-black)] hover:text-[var(--color-azure)]" onClick={closeAllMenus}>
                     Support & Training
                   </Link>
-                  <Link href="/integrations" className="block px-8 py-3 text-[var(--color-black)] hover:text-[var(--color-azure)]" onClick={closeAllMenus}>
+                  <Link href="/integration" className="block px-8 py-3 text-[var(--color-black)] hover:text-[var(--color-azure)]" onClick={closeAllMenus}>
                     Integration Catalog
                   </Link>
                   <Link href="/why-us#roi" className="block px-8 py-3 text-[var(--color-black)] hover:text-[var(--color-azure)]" onClick={closeAllMenus}>
