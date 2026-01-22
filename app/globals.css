@@ -7,22 +7,23 @@ html {
 }
 
 :root {
-  /* Colors from WordPress variables.scss */
-  --color-azure: #4C7C8A;
-  --color-azure-light: #9FBCC7;
-  --color-azure-lighter: #EEF4F6;
-  --color-gold: #d8c5b0;
-  --color-gold-dark: #ad9983;
-  --color-gold-darker: #AD936E;
-  --color-gold-darkest: #8d775e;
-  --color-black: #212121;
+  /* Colors matched to WordPress exactly */
+  --color-azure: #0693e3;
+  --color-azure-light: #3aa9f0;
+  --color-azure-lighter: #e6f7ff;
+  --color-gold: #fcb900;
+  --color-gold-dark: #d99b00;
+  --color-gold-darker: #b67f00;
+  --color-gold-darkest: #936600;
+  --color-black: #000000;
   --color-black-dark: #191b1e;
-  --color-black-light: #272a2e;
+  --color-black-light: #929191;
   --color-white: #ffffff;
   --color-white-lighter: #ffffff;
-  --color-gray-light: #f6f6f6;
+  --color-gray-light: #f0f0f0;
   --color-gray-darken: #979797;
-  --color-gray-placeholder: #707070;
+  --color-gray-placeholder: #929191;
+  --color-button-bg: #32373c;
 
   /* Background */
   --background: var(--color-white);
@@ -30,20 +31,21 @@ html {
 }
 
 @theme inline {
-  /* Custom Colors */
-  --color-azure: #4C7C8A;
-  --color-azure-light: #9FBCC7;
-  --color-azure-lighter: #EEF4F6;
-  --color-gold: #d8c5b0;
-  --color-gold-dark: #ad9983;
-  --color-gold-darker: #AD936E;
-  --color-gold-darkest: #8d775e;
-  --color-black: #212121;
+  /* Custom Colors matched to WordPress */
+  --color-azure: #0693e3;
+  --color-azure-light: #3aa9f0;
+  --color-azure-lighter: #e6f7ff;
+  --color-gold: #fcb900;
+  --color-gold-dark: #d99b00;
+  --color-gold-darker: #b67f00;
+  --color-gold-darkest: #936600;
+  --color-black: #000000;
   --color-black-dark: #191b1e;
-  --color-black-light: #272a2e;
-  --color-gray-light: #f6f6f6;
+  --color-black-light: #929191;
+  --color-gray-light: #f0f0f0;
   --color-gray-darken: #979797;
-  --color-gray-placeholder: #707070;
+  --color-gray-placeholder: #929191;
+  --color-button-bg: #32373c;
 
   /* Responsive Breakpoints (matching WordPress) */
   --breakpoint-sm: 576px;
@@ -51,9 +53,9 @@ html {
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1260px;
 
-  /* Typography */
-  --font-primary: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-secondary: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Typography - Raleway */
+  --font-primary: var(--font-raleway), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-secondary: var(--font-raleway), -apple-system, BlinkMacSystemFont, sans-serif;
 
   /* Spacing */
   --global-width: 1260px;
@@ -66,7 +68,7 @@ body {
   font-size: 1.6rem;
 }
 
-/* Base Typography */
+/* Base Typography matched to WordPress */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-primary);
   font-weight: 400;
@@ -74,13 +76,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4.2rem; /* 42px */
   margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.6rem; /* 36px */
   margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 2.0rem; /* 20px */
 }
 
 p {
@@ -114,4 +120,52 @@ a {
 
 a:hover {
   color: var(--color-azure-light);
+}
+
+/* WordPress Button Styles */
+button, .button, [type="button"], [type="submit"] {
+  font-family: var(--font-primary);
+  font-size: 2.0rem; /* 20px */
+  font-weight: 400;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px);
+  border-radius: 9999px;
+  background: var(--color-button-bg);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+button:hover, .button:hover {
+  background: var(--color-azure);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover Effects for Images and Cards */
+.hover-scale {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-opacity {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-opacity:hover {
+  opacity: 1;
+}
+
+/* WordPress Brand Logo Hover */
+img.brand-logo {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+img.brand-logo:hover {
+  opacity: 1;
 }
