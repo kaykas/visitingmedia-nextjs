@@ -45,7 +45,7 @@ export default function Home() {
         </section>
 
         {/* Trust Section */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-20">
+        <section className="bg-white py-16 lg:py-20">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-2xl lg:text-3xl text-center mb-12 font-normal">
               Trusted by hundreds of brands and thousands of companies worldwide
@@ -115,7 +115,7 @@ export default function Home() {
         </section>
 
         {/* ROI Metrics Section */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-4 font-bold">
               Real Customer-Reported ROI
@@ -155,7 +155,7 @@ export default function Home() {
         </section>
 
         {/* Platform Overview Section */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-5xl text-center mb-6 font-bold">
               World's #1 Hospitality Sales Enablement Platform
@@ -279,7 +279,7 @@ export default function Home() {
         </section>
 
         {/* Customer Stories Section */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
               Customer Stories
@@ -433,39 +433,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Latest Blog Posts */}
-        <section className="bg-white py-16 lg:py-24">
-          <div className="max-w-[1260px] mx-auto px-6">
-            <h2 className="text-3xl lg:text-4xl text-center mb-12">Latest Insights</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="bg-white rounded shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-[var(--color-gray-darken)]">
-                  <div className="h-48 bg-[var(--color-azure-lighter)]"></div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-3">Industry Insights {i}</h3>
-                    <p className="text-[var(--color-black-light)] mb-4 font-[var(--font-secondary)]">
-                      Discover the latest trends and best practices in hospitality sales enablement...
-                    </p>
-                    <Link
-                      href="/blog"
-                      className="text-[var(--color-azure)] font-semibold hover:text-[var(--color-azure-light)] transition-colors"
-                    >
-                      Read More →
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-12">
-              <Link
-                href="/blog"
-                className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
-              >
-                View All Posts
-              </Link>
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </>
