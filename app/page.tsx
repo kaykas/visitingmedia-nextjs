@@ -217,28 +217,19 @@ export default function Home() {
                 </Link>
               </div>
               <div className="order-first md:order-last">
-                <div className="bg-white p-4 rounded-lg shadow-xl">
-                  <Image
-                    src="/images/mockups/four-device-mockup.png"
-                    alt="Multi-device mockup showing platform across devices"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto rounded"
-                  />
-                </div>
+                <Image
+                  src="/images/mockups/ipad-tripadvisor.png"
+                  alt="iPad showing virtual tour on TripAdvisor"
+                  width={600}
+                  height={450}
+                  className="w-full h-auto"
+                />
               </div>
             </div>
 
             {/* Subsection 4: Immersive Selling Strategy */}
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="order-last md:order-first">
-                <div className="bg-white p-4 rounded-lg shadow-xl">
-                  <div className="aspect-[4/3] bg-[var(--color-azure-lighter)] rounded flex items-center justify-center">
-                    <span className="text-[var(--color-azure)] font-semibold">Strategy Mockup</span>
-                  </div>
-                </div>
-              </div>
-              <div>
+            <div>
+              <div className="max-w-3xl mx-auto text-center">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Immersive Selling Strategy
                 </h3>
