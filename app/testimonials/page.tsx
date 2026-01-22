@@ -47,29 +47,29 @@ export default function TestimonialsPage() {
   // Additional testimonials for grid display
   const additionalTestimonials = [
     {
-      quote: "SalesHub lets you bundle content, save time, and show only what matters. The voice recording option is fantastic.",
+      quote: "Now what's great about SalesHub is we can package it. I can bundle that [content], save you time and just show you the stuff you want to see. And now obviously they have the new voice recording option too which is great. I could just do it all virtually and leave a verbal description if I need to what you need to look at or what we're talking about. I think that's fantastic. I think for hotels that don't have it, it's a miss.",
       name: "Dan Shaughnessy",
-      title: "Director of Sales and Marketing, Marriott Marquis San Diego Marina"
+      title: "Director of Sales and Marketing – Marriot Marquis San Diego Marina"
     },
     {
-      quote: "TrueTour houses all our PDFs, capacity guides, and 360° photos. We share them in sales proposals effectively.",
+      quote: "We're constantly using [TrueTour] as a resource to house all of our PDFs of our meeting capacity guides, our sales kits, our 360° photos… we can actually share them as part of our sales proposals, which has been a really great opportunity for us.",
       name: "Sam Klein",
-      title: "Director of Marketing Strategy, Meetings & Events, MGM Resorts"
+      title: "Director of Marketing Strategy, Meetings & Events – MGM Resorts"
     },
     {
-      quote: "TrueTour is tailored to conversations with clients. It helps us book faster, especially with last-minute business.",
+      quote: "[TrueTour] is not only easy to access and use but it allows you to show content that is tailored to the conversation you're having with your clients. It definitely helps us book business faster, especially in this market where everything is last minute.",
       name: "Jonathan Leonardis",
-      title: "Global Director of Sales, SH Hotels & Resorts"
+      title: "Global Director of Sales – SH Hotels & Resorts"
     },
     {
-      quote: "We booked over $100k in revenue in 2023 using TrueTour for proposals and document storage.",
+      quote: "We love using the TrueTour. We list it on our email signatures and in all our proposals. I am a Dual and Connected hotel – so a link that showcases the amenities that make us a \"Full Service\" Hotel is extremely helpful. The storage of documents is also extremely helpful. The platform is like a sales 'kit' with all our Menus, Collaterals, etc. It makes it seamless and professional experience with the client. We have a conference in May that wanted to discuss vendor booths and the flow of their meeting and True Tour was a big help. We also take screen shots of the room layouts and make our own diagrams for banquet teams. I can easily say we booked over $100k in revenue in 2023.",
       name: "Area Director of Sales & Marketing",
       title: "Hilton Garden Inn and Home2 Suites"
     },
     {
-      quote: "This product stands out above the rest and advances proposals to modern standards.",
+      quote: "I would definitely endorse working with Visiting Media. This product is definitely going to help you stand out above the rest. It's a great tool, especially with the modern technology that we have, and it brings our proposals more in line with the modern day and advances our product.",
       name: "Jonathan Muscillo",
-      title: "Group Sales Manager, Heldrich Hotel"
+      title: "Group Sales Manager – Heldrich Hotel"
     },
     {
       quote: "TrueTour helps previous clients see innovation and changes perception of value.",
@@ -148,7 +148,7 @@ export default function TestimonialsPage() {
             <p className="text-lg lg:text-xl mb-4 text-[var(--color-azure-lighter)] uppercase tracking-wider font-semibold">Testimonials</p>
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">Words From Our Clients</h1>
             <p className="text-xl lg:text-2xl font-[var(--font-secondary)] max-w-4xl mx-auto">
-              Hear directly from our customers why they love TrueTour, SalesHub and the Visiting Media service provided at scale.
+              Hear directly from our customers why they love TrueTour, SalesHub and the Visiting Media service provided at scale. From property-level sales teams to regional and global enterprises, our tools provide solutions throughout brand, management company and ownership group teams distributed around the world.
             </p>
           </div>
         </section>
@@ -157,13 +157,10 @@ export default function TestimonialsPage() {
         <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-8 font-bold">
-              Testimonials
+              Visiting Media serves thousands of customers including
             </h2>
-            <p className="text-xl text-center mb-8 max-w-4xl mx-auto font-[var(--font-secondary)]">
-              Our customer base spans the global hospitality industry, from independent boutique hotels to major international brands.
-            </p>
             <p className="text-lg text-center text-[var(--color-black-light)] font-[var(--font-secondary)]">
-              Notable clients include: Aimbridge Hospitality, Remington, Hilton, Hyatt, IHG, Accor, Host Hotels & Resorts, and many others.
+              Aimbridge Hospitality, Remington, Hilton, Hyatt, IHG, Accor, Host Hotels & Resorts, and many more
             </p>
           </div>
         </section>
@@ -319,13 +316,13 @@ export default function TestimonialsPage() {
         <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-8">
-              Ready to Join These Success Stories?
+              Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
               className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Request a Demo
+              Request Demo
             </Link>
           </div>
         </section>
