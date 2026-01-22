@@ -45,9 +45,12 @@ export default function WhyUsPage() {
           </div>
           <div className="relative z-10 max-w-[1260px] mx-auto px-6">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 uppercase">Why Us?</h1>
-            <h2 className="text-2xl lg:text-3xl text-[var(--color-azure-lighter)] font-[var(--font-secondary)]">
+            <h2 className="text-2xl lg:text-3xl text-[var(--color-azure-lighter)] font-[var(--font-secondary)] mb-6">
               The Results Speak for Themselves
             </h2>
+            <p className="text-xl lg:text-2xl max-w-4xl font-[var(--font-secondary)]">
+              Our reputation as the world's expert on hospitality sales enablement is based on our years of research, product innovation and a track record of consistently delivering exceptionally high return on investment to our customers.
+            </p>
           </div>
         </section>
 
@@ -80,9 +83,6 @@ export default function WhyUsPage() {
                 <p className="text-lg font-[var(--font-secondary)]">decrease in sales cycle length</p>
               </div>
             </div>
-            <p className="text-xl lg:text-2xl text-center max-w-4xl mx-auto font-[var(--font-secondary)]">
-              We are the world's expert on hospitality sales enablement, built on years of research, product innovation, and a track record of delivering high ROI.
-            </p>
           </div>
         </section>
 
@@ -95,7 +95,7 @@ export default function WhyUsPage() {
                   Immersive Sales Enablement
                 </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  Discover benefits sales enablement brings to properties at scale.
+                  Discover the benefits sales enablement brings to properties at scale.
                 </p>
               </div>
               <div>
@@ -103,7 +103,7 @@ export default function WhyUsPage() {
                   Calculate Your ROI
                 </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                  Use ROI calculators to estimate revenue SalesHub can bring to your business.
+                  Use our ROI calculators to estimate the revenue SalesHub™ can bring to your business.
                 </p>
               </div>
               <div>
@@ -159,7 +159,7 @@ export default function WhyUsPage() {
                 href="/blog"
                 className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
               >
-                View More
+                VIEW more
               </Link>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function WhyUsPage() {
               href="/request-demo"
               className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
-              Request a Demo
+              Request Demo
             </Link>
           </div>
         </section>
