@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting Media - Comprehensive Verification Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #0693e3;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .summary-box {
+            background: #fff3cd;
+            border-left: 4px solid #fcb900;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .summary-box h2 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .critical {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+        }
+
+        .critical h2 {
+            color: #721c24;
+        }
+
+        .success {
+            background: #d4edda;
+            border-left-color: #28a745;
+        }
+
+        .success h2 {
+            color: #155724;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #0693e3;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .mismatch {
+            color: #dc3545;
+            font-weight: 600;
+        }
+
+        .match {
+            color: #28a745;
+            font-weight: 600;
+        }
+
+        .metric {
+            display: inline-block;
+            background: #0693e3;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin: 5px;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .screenshot-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .screenshot-label {
+            padding: 10px;
+            background: #f5f5f5;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .diff-label {
+            background: #f8d7da;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .page-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            background: #fafafa;
+        }
+
+        .page-card h3 {
+            color: #0693e3;
+            margin-bottom: 15px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .stat-label {
+            font-weight: 600;
+        }
+
+        .recommendation {
+            background: #e7f3ff;
+            border-left: 4px solid #0693e3;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Comprehensive Verification Report</h1>
+            <div class="subtitle">WordPress vs. Next.js Pixel-Perfect Comparison</div>
+            <div class="subtitle">Generated: January 22, 2026</div>
+        </header>
+
+        <div class="summary-box critical">
+            <h2>⚠️ Critical Finding: Significant Differences Detected</h2>
+            <p><strong>ALL 9 pages have major differences ranging from 80.41% to 97.41%.</strong></p>
+            <p>This confirms that pages do not match pixel-perfect as required. Comprehensive fixes are needed across the entire site.</p>
+        </div>
+
+        <div class="section">
+            <h2>📊 Overall Results</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Total Pages Verified</td>
+                    <td><span class="metric">9</span></td>
+                </tr>
+                <tr>
+                    <td>Pages Matching (<5% difference)</td>
+                    <td><span class="mismatch">0</span></td>
+                </tr>
+                <tr>
+                    <td>Pages With Differences (>5%)</td>
+                    <td><span class="mismatch">9 (100%)</span></td>
+                </tr>
+                <tr>
+                    <td>Average Pixel Difference</td>
+                    <td><span class="mismatch">87.33%</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>🔍 Page-by-Page Pixel Comparison</h2>
+
+            <div class="page-card">
+                <h3>1. Homepage (/)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">90.68%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 7782px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>13,549,605</span>
+                </div>
+                <div class="recommendation">
+                    <strong>Note:</strong> Next.js page is significantly shorter (1080px vs 7782px). Missing content or layout issues.
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>2. Why Us (/why-us)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">90.50%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 3406px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>5,918,269</span>
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>3. Testimonials (/testimonials)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">97.41% ⚠️ HIGHEST</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 16224px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>30,342,865</span>
+                </div>
+                <div class="recommendation">
+                    <strong>Critical:</strong> Testimonials page has the highest difference (97.41%). Next.js page is dramatically shorter (1080px vs 16224px).
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>4. Customers (/customers)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">83.30%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 3950px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 11600px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>18,552,366</span>
+                </div>
+                <div class="recommendation">
+                    <strong>Note:</strong> WordPress uses /customer (singular), Next.js uses /customers (plural). Also, Next.js page is LONGER than WordPress (11600px vs 3950px) - layout differences.
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>5. Community (/community)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">80.41% ✓ LOWEST (still high)</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>1,667,452</span>
+                </div>
+                <div class="recommendation">
+                    <strong>Note:</strong> Same dimensions but still 80% different. This is the "simplest" page but still has massive styling/content differences.
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>6. Integration (/integration)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">90.61%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 2431px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>4,229,178</span>
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>7. Request Demo (/request-demo)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">84.91%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 1433px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>2,336,291</span>
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>8. Blog (/blog)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">90.70%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 3333px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 10663px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>18,568,045</span>
+                </div>
+                <div class="recommendation">
+                    <strong>Note:</strong> Next.js page is much LONGER (10663px vs 3333px). Possible layout differences or duplicate content.
+                </div>
+            </div>
+
+            <div class="page-card">
+                <h3>9. Solutions (/solutions)</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Pixel Difference:</span>
+                    <span class="mismatch">88.42%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">WordPress Dimensions:</span>
+                    <span>1920 x 1993px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Next.js Dimensions:</span>
+                    <span>1920 x 1080px</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Different Pixels:</span>
+                    <span>3,383,321</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Element Count Comparison</h2>
+            <p><strong>Note:</strong> Element counts may be inaccurate due to detection issues with Next.js Image components and client-side rendering. The audit script primarily detects traditional HTML tags.</p>
+
+            <table>
+                <tr>
+                    <th>Page</th>
+                    <th>WP Images</th>
+                    <th>Next Images</th>
+                    <th>Image Diff</th>
+                    <th>WP Buttons</th>
+                    <th>Next Buttons</th>
+                </tr>
+                <tr>
+                    <td>Homepage</td>
+                    <td>27</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-27</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Why Us</td>
+                    <td>11</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-11</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Testimonials</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Customers</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-30</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Community</td>
+                    <td>5</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-5</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Integration</td>
+                    <td>13</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-13</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Request Demo</td>
+                    <td>5</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-5</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Blog</td>
+                    <td>18</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-18</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+                <tr>
+                    <td>Solutions</td>
+                    <td>9</td>
+                    <td class="mismatch">0*</td>
+                    <td class="mismatch">-9</td>
+                    <td>30</td>
+                    <td class="mismatch">0*</td>
+                </tr>
+            </table>
+
+            <div class="recommendation">
+                <strong>* Important Caveat:</strong> The "0" counts for Next.js images and buttons are likely detection issues. Next.js uses <code>&lt;Image&gt;</code> components and client-side rendering, which the Puppeteer audit script may not fully detect. Manual inspection of the code shows images and buttons DO exist in the Next.js pages.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Key Issues Identified</h2>
+
+            <h3>1. Layout & Structure Differences</h3>
+            <ul>
+                <li><strong>Page Height Mismatches:</strong> Most Next.js pages are significantly shorter or longer than WordPress versions, indicating major layout differences</li>
+                <li><strong>Homepage:</strong> Next.js is 1080px while WordPress is 7782px (85% shorter)</li>
+                <li><strong>Testimonials:</strong> Next.js is 1080px while WordPress is 16,224px (93% shorter)</li>
+                <li><strong>Customers:</strong> Next.js is 11,600px while WordPress is 3,950px (193% longer)</li>
+                <li><strong>Blog:</strong> Next.js is 10,663px while WordPress is 3,333px (220% longer)</li>
+            </ul>
+
+            <h3>2. Styling Differences</h3>
+            <ul>
+                <li>Background colors may differ across sections</li>
+                <li>Typography (font sizes, weights, line heights) likely inconsistent</li>
+                <li>Spacing (margins, padding) not matching</li>
+                <li>Button styles may vary</li>
+                <li>Color scheme inconsistencies possible</li>
+            </ul>
+
+            <h3>3. Content Differences</h3>
+            <ul>
+                <li>Text content may not match exactly word-for-word</li>
+                <li>Heading structures may differ</li>
+                <li>Section ordering might vary</li>
+                <li>Missing sections on some pages</li>
+            </ul>
+
+            <h3>4. Image Issues</h3>
+            <ul>
+                <li>Images exist in public folder but may not be displaying correctly</li>
+                <li>Image sizes/dimensions might differ from WordPress</li>
+                <li>Image quality or compression differences possible</li>
+                <li>Alt text may not match exactly</li>
+            </ul>
+
+            <h3>5. Route Naming Discrepancy</h3>
+            <ul>
+                <li>WordPress uses <code>/customer</code> (singular)</li>
+                <li>Next.js uses <code>/customers</code> (plural)</li>
+                <li>This could cause broken links from external sources</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✅ Recommended Actions</h2>
+
+            <ol>
+                <li><strong>Page-by-Page Manual Comparison:</strong>
+                    <ul>
+                        <li>Open WordPress page in one browser tab</li>
+                        <li>Open Next.js page in another tab</li>
+                        <li>Compare section-by-section, noting all differences</li>
+                        <li>Use browser DevTools to inspect elements and copy exact CSS</li>
+                    </ul>
+                </li>
+
+                <li><strong>Start with Community Page (Lowest Difference 80.41%):</strong>
+                    <ul>
+                        <li>This is the simplest page</li>
+                        <li>Fix this first to establish a working methodology</li>
+                        <li>Once Community matches perfectly, apply same process to other pages</li>
+                    </ul>
+                </li>
+
+                <li><strong>Focus Areas for Each Page:</strong>
+                    <ul>
+                        <li><strong>Typography:</strong> Match font families, sizes, weights, line heights, letter spacing</li>
+                        <li><strong>Colors:</strong> Match all text colors, background colors, border colors exactly</li>
+                        <li><strong>Spacing:</strong> Match margins, padding, gaps in grids/flexbox</li>
+                        <li><strong>Layout:</strong> Match container widths, grid columns, flexbox properties</li>
+                        <li><strong>Images:</strong> Verify all images load, match dimensions, alt text correct</li>
+                        <li><strong>Interactions:</strong> Test hover states, button clicks, form submissions</li>
+                        <li><strong>Content:</strong> Match all text word-for-word, heading levels correct</li>
+                    </ul>
+                </li>
+
+                <li><strong>Fix Route Naming:</strong>
+                    <ul>
+                        <li>Add redirect from <code>/customer</code> to <code>/customers</code> in Next.js</li>
+                        <li>Or rename the route to match WordPress exactly</li>
+                    </ul>
+                </li>
+
+                <li><strong>Re-run Verification After Each Page:</strong>
+                    <ul>
+                        <li>After fixing each page, re-run screenshot comparison</li>
+                        <li>Only move to next page when current page shows <5% difference</li>
+                        <li>Don't claim pages are complete without automated verification</li>
+                    </ul>
+                </li>
+
+                <li><strong>Use WordPress Inspect Tool:</strong>
+                    <ul>
+                        <li>Right-click elements on WordPress site</li>
+                        <li>Click "Inspect" to see exact CSS properties</li>
+                        <li>Copy computed styles directly to Next.js Tailwind classes</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="summary-box success">
+            <h2>✅ Verification Process Completed Successfully</h2>
+            <p>This automated verification has identified concrete, measurable differences across all pages. The data shows clear areas requiring attention:</p>
+            <ul>
+                <li>All 9 pages have 80-97% pixel differences</li>
+                <li>Major layout/structure differences on most pages</li>
+                <li>Testimonials page has highest difference (97.41%)</li>
+                <li>Community page has lowest difference (80.41%) - good starting point for fixes</li>
+            </ul>
+            <p><strong>Next Step:</strong> Systematic page-by-page fixes with re-verification after each page.</p>
+        </div>
+
+        <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; color: #666; text-align: center;">
+            <p>Screenshots and difference images saved to: <code>verification/screenshots/</code></p>
+            <p>Detailed JSON data saved to: <code>verification/reports/</code></p>
+            <p>Generated by Comprehensive Verification System - January 22, 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

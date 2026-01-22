@@ -1,0 +1,82 @@
+{
+  "successful": [
+    {
+      "page": "homepage",
+      "type": "wordpress"
+    },
+    {
+      "page": "why-us",
+      "type": "wordpress"
+    },
+    {
+      "page": "why-us",
+      "type": "nextjs"
+    },
+    {
+      "page": "testimonials",
+      "type": "nextjs"
+    },
+    {
+      "page": "customers",
+      "type": "wordpress"
+    },
+    {
+      "page": "community",
+      "type": "wordpress"
+    },
+    {
+      "page": "community",
+      "type": "nextjs"
+    },
+    {
+      "page": "integration",
+      "type": "wordpress"
+    },
+    {
+      "page": "integration",
+      "type": "nextjs"
+    },
+    {
+      "page": "request-demo",
+      "type": "wordpress"
+    },
+    {
+      "page": "request-demo",
+      "type": "nextjs"
+    },
+    {
+      "page": "blog",
+      "type": "wordpress"
+    },
+    {
+      "page": "solutions",
+      "type": "wordpress"
+    },
+    {
+      "page": "solutions",
+      "type": "nextjs"
+    }
+  ],
+  "failed": [
+    {
+      "page": "homepage",
+      "type": "nextjs",
+      "error": "Navigation timeout of 60000 ms exceeded"
+    },
+    {
+      "page": "testimonials",
+      "type": "wordpress",
+      "error": "Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed."
+    },
+    {
+      "page": "customers",
+      "type": "nextjs",
+      "error": "Navigating frame was detached"
+    },
+    {
+      "page": "blog",
+      "type": "nextjs",
+      "error": "Navigation timeout of 60000 ms exceeded"
+    }
+  ]
+}
