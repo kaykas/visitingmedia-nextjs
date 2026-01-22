@@ -8,9 +8,9 @@ export default function CommunityPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="bg-[var(--color-black)] text-white py-24 lg:py-32">
+        <section className="bg-white py-24 lg:py-32">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h1 className="text-4xl lg:text-6xl font-bold uppercase">Community</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold uppercase text-[var(--color-black)]">Community</h1>
           </div>
         </section>
 
