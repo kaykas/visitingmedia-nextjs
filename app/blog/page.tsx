@@ -1,5 +1,7 @@
 import { client } from '@/lib/sanity.client'
 import { postsQuery } from '@/lib/sanity.queries'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { urlFor } from '@/lib/sanity.image'
@@ -17,7 +19,9 @@ export default async function BlogPage() {
   const posts = await getPosts()
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-12">Blog</h1>
 
@@ -60,5 +64,7 @@ export default async function BlogPage() {
         )}
       </div>
     </main>
+    <Footer />
+  </>
   )
 }

@@ -1,23 +1,28 @@
 @import "tailwindcss";
 
 /* WordPress Theme Design System */
+html {
+  font-size: 62.5%; /* Base 10 sizing: 1rem = 10px */
+  overflow-x: hidden;
+}
+
 :root {
   /* Colors from WordPress variables.scss */
   --color-azure: #4C7C8A;
   --color-azure-light: #9FBCC7;
   --color-azure-lighter: #EEF4F6;
   --color-gold: #d8c5b0;
-  --color-gold-dark: #C1A989;
+  --color-gold-dark: #ad9983;
   --color-gold-darker: #AD936E;
-  --color-gold-darkest: #9A8054;
+  --color-gold-darkest: #8d775e;
   --color-black: #212121;
-  --color-black-dark: #1E1E1E;
-  --color-black-light: #474747;
+  --color-black-dark: #191b1e;
+  --color-black-light: #272a2e;
   --color-white: #ffffff;
-  --color-white-lighter: #FEFEFE;
-  --color-gray-light: #F7F7F7;
-  --color-gray-darken: #DEDEDE;
-  --color-gray-placeholder: #989898;
+  --color-white-lighter: #ffffff;
+  --color-gray-light: #f6f6f6;
+  --color-gray-darken: #979797;
+  --color-gray-placeholder: #707070;
 
   /* Background */
   --background: var(--color-white);
@@ -30,15 +35,15 @@
   --color-azure-light: #9FBCC7;
   --color-azure-lighter: #EEF4F6;
   --color-gold: #d8c5b0;
-  --color-gold-dark: #C1A989;
+  --color-gold-dark: #ad9983;
   --color-gold-darker: #AD936E;
-  --color-gold-darkest: #9A8054;
+  --color-gold-darkest: #8d775e;
   --color-black: #212121;
-  --color-black-dark: #1E1E1E;
-  --color-black-light: #474747;
-  --color-gray-light: #F7F7F7;
-  --color-gray-darken: #DEDEDE;
-  --color-gray-placeholder: #989898;
+  --color-black-dark: #191b1e;
+  --color-black-light: #272a2e;
+  --color-gray-light: #f6f6f6;
+  --color-gray-darken: #979797;
+  --color-gray-placeholder: #707070;
 
   /* Responsive Breakpoints (matching WordPress) */
   --breakpoint-sm: 576px;
@@ -47,8 +52,8 @@
   --breakpoint-xl: 1260px;
 
   /* Typography */
-  --font-primary: 'Tomato Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-primary: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-secondary: var(--font-inter), -apple-system, BlinkMacSystemFont, sans-serif;
 
   /* Spacing */
   --global-width: 1260px;
@@ -81,4 +86,32 @@ h2 {
 p {
   font-family: var(--font-secondary);
   line-height: 1.6;
+}
+
+/* WordPress Blockquote Styling */
+blockquote {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-gold);
+  font-size: 2rem;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  line-height: 2.7rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--color-azure);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-azure-light);
 }

@@ -21,7 +21,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-[var(--color-azure)]">Visiting Media</div>
+            <img
+              src="/images/logo.svg"
+              alt="Visiting Media"
+              className="h-12 lg:h-14"
+            />
           </Link>
 
           {/* Desktop Navigation */}
