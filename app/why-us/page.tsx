@@ -87,7 +87,7 @@ export default function WhyUsPage() {
         </section>
 
         {/* Core Service Areas */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <div className="grid md:grid-cols-3 gap-12">
               <div>
@@ -119,7 +119,7 @@ export default function WhyUsPage() {
         </section>
 
         {/* Customer Journey */}
-        <section className="bg-white py-16 lg:py-24">
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-16 font-bold">
               Our Customer Journey
@@ -129,7 +129,7 @@ export default function WhyUsPage() {
         </section>
 
         {/* Integration Partners */}
-        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
               Enhance Digital Channels
@@ -139,10 +139,10 @@ export default function WhyUsPage() {
             </p>
             <div className="text-center">
               <Link
-                href="/integrations"
+                href="/integration"
                 className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
               >
-                View All Integrations
+                View Our Integration Catalog
               </Link>
             </div>
           </div>
@@ -166,14 +166,14 @@ export default function WhyUsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-8">
-              Request Demo & Get Started Today
+              Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
-              className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              className="inline-block bg-[var(--color-azure)] text-white px-12 py-5 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
               Request Demo
             </Link>
