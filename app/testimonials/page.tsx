@@ -133,21 +133,12 @@ export default function TestimonialsPage() {
     <>
       <Header />
       <main>
-        {/* Hero Section with Background Image */}
-        <section className="relative bg-[var(--color-black)] text-white py-24 lg:py-32 overflow-hidden">
-          <div className="absolute inset-0 z-0">
-            <Image
-              src="/images/hero/hotel-polaris.png"
-              alt="Hotel Polaris"
-              fill
-              className="object-cover opacity-50"
-              priority
-            />
-          </div>
-          <div className="relative z-10 max-w-[1260px] mx-auto px-6 text-center">
-            <p className="text-lg lg:text-xl mb-4 text-[var(--color-azure-lighter)] uppercase tracking-wider font-semibold">Testimonials</p>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">Words From Our Clients</h1>
-            <p className="text-xl lg:text-2xl font-[var(--font-secondary)] max-w-4xl mx-auto">
+        {/* Hero Section */}
+        <section className="bg-white py-24 lg:py-32">
+          <div className="max-w-[1260px] mx-auto px-6 text-center">
+            <p className="text-lg lg:text-xl mb-4 text-[var(--color-azure)] uppercase tracking-wider font-semibold">Testimonials</p>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 text-[var(--color-black)]">Words From Our Clients</h1>
+            <p className="text-xl lg:text-2xl font-[var(--font-secondary)] max-w-4xl mx-auto text-[var(--color-black-light)]">
               Hear directly from our customers why they love TrueTour, SalesHub and the Visiting Media service provided at scale. From property-level sales teams to regional and global enterprises, our tools provide solutions throughout brand, management company and ownership group teams distributed around the world.
             </p>
           </div>
@@ -166,7 +157,7 @@ export default function TestimonialsPage() {
         </section>
 
         {/* Featured Testimonials with Background Images */}
-        <section className="py-16 lg:py-24 bg-[var(--color-gray-light)]">
+        <section className="py-16 lg:py-24 bg-white">
           <div className="max-w-[1260px] mx-auto px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {featuredTestimonials.map((testimonial, i) => (
@@ -256,7 +247,7 @@ export default function TestimonialsPage() {
         </section>
 
         {/* Additional Testimonials Grid */}
-        <section className="py-16 lg:py-24 bg-[var(--color-gray-light)]">
+        <section className="py-16 lg:py-24 bg-white">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
               More Customer Success Stories
@@ -313,14 +304,14 @@ export default function TestimonialsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-[var(--color-black)]">
               Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
-              className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              className="inline-block bg-[var(--color-azure)] text-white px-12 py-5 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
               Request Demo
             </Link>
