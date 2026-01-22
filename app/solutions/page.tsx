@@ -175,6 +175,21 @@ export default function SolutionsPage() {
           </div>
         </section>
 
+        {/* Product Comparison */}
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6 text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+              Which product is right for you?
+            </h2>
+            <Link
+              href="/request-demo"
+              className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+            >
+              Compare Products
+            </Link>
+          </div>
+        </section>
+
         {/* Customer Testimonial */}
         <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[900px] mx-auto px-6">
@@ -189,6 +204,21 @@ export default function SolutionsPage() {
                 </span>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Case Study */}
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6 text-center">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-4">
+              Case Study: Convention Hotels See Substantial ROI with Visiting Media Solutions
+            </h2>
+            <Link
+              href="/customers"
+              className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+            >
+              Read More
+            </Link>
           </div>
         </section>
 

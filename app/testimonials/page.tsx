@@ -153,6 +153,21 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
+        {/* Introduction Block */}
+        <section className="bg-white py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl lg:text-4xl text-center mb-8 font-bold">
+              Testimonials
+            </h2>
+            <p className="text-xl text-center mb-8 max-w-4xl mx-auto font-[var(--font-secondary)]">
+              Our customer base spans the global hospitality industry, from independent boutique hotels to major international brands.
+            </p>
+            <p className="text-lg text-center text-[var(--color-black-light)] font-[var(--font-secondary)]">
+              Notable clients include: Aimbridge Hospitality, Remington, Hilton, Hyatt, IHG, Accor, Host Hotels & Resorts, and many others.
+            </p>
+          </div>
+        </section>
+
         {/* Featured Testimonials with Background Images */}
         <section className="py-16 lg:py-24 bg-[var(--color-gray-light)]">
           <div className="max-w-[1260px] mx-auto px-6">

@@ -51,10 +51,36 @@ export default function WhyUsPage() {
           </div>
         </section>
 
-        {/* Value Proposition */}
+        {/* Key Statistics */}
         <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
-            <p className="text-xl lg:text-2xl text-center mb-16 max-w-4xl mx-auto font-[var(--font-secondary)]">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">100%</div>
+                <p className="text-lg font-[var(--font-secondary)]">referral-based adoption</p>
+              </div>
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">90%+</div>
+                <p className="text-lg font-[var(--font-secondary)]">of customers report 6-figure ROI</p>
+              </div>
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">25-39%</div>
+                <p className="text-lg font-[var(--font-secondary)]">increased revenue per customer</p>
+              </div>
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">25-39%</div>
+                <p className="text-lg font-[var(--font-secondary)]">increase in proposal conversions</p>
+              </div>
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">17x</div>
+                <p className="text-lg font-[var(--font-secondary)]">average customer ROI</p>
+              </div>
+              <div className="text-center p-8 bg-[var(--color-gray-light)] rounded">
+                <div className="text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-azure)]">30-50%</div>
+                <p className="text-lg font-[var(--font-secondary)]">decrease in sales cycle length</p>
+              </div>
+            </div>
+            <p className="text-xl lg:text-2xl text-center max-w-4xl mx-auto font-[var(--font-secondary)]">
               We are the world's expert on hospitality sales enablement, built on years of research, product innovation, and a track record of delivering high ROI.
             </p>
           </div>
@@ -117,6 +143,23 @@ export default function WhyUsPage() {
                 className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
               >
                 View All Integrations
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Press Coverage */}
+        <section className="bg-white py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
+              Read about Visiting Media in the Press
+            </h2>
+            <div className="text-center">
+              <Link
+                href="/blog"
+                className="inline-block bg-[var(--color-azure)] text-white px-8 py-4 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              >
+                View More
               </Link>
             </div>
           </div>
