@@ -255,6 +255,9 @@ export default function Home() {
         {/* Customer Success Metrics */}
         <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl lg:text-4xl text-center mb-12 font-bold">
+              Save Time, Increase Satisfaction
+            </h2>
             <div className="grid md:grid-cols-3 gap-12">
               <div className="text-center">
                 <div className="text-5xl lg:text-6xl font-bold mb-4">100%</div>
