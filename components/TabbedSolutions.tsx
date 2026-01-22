@@ -15,10 +15,10 @@ const tabs: Tab[] = [
     label: 'TrueTour™',
     title: 'TrueTour™ - Virtual Tours That Sell',
     features: [
-      'Single-link delivery via email, text, or QR code',
-      'Combines 360° tours with sales collateral',
-      'Mobile-optimized viewing experience',
-      'Analytics and engagement tracking'
+      'Immersive Tour',
+      'Virtual Site Inspections',
+      'Channel Distribution',
+      'Sharing through text, email, QR code'
     ]
   },
   {
@@ -26,15 +26,15 @@ const tabs: Tab[] = [
     label: 'SalesHub™',
     title: 'SalesHub™ - Interactive Sales Enablement Platform',
     features: [
-      'Combine immersive content with branded collateral',
-      'Create custom digital experiences for each prospect',
-      'Present in-person or share remotely',
-      'Organize content by event type, space, or topic',
-      'Real-time content updates across all presentations',
-      'Track prospect engagement and interactions',
-      'Seamless brand consistency across all materials',
-      'Mobile and desktop optimized',
-      'Integration with CRM and booking systems'
+      'Immersive Tour',
+      'Virtual Site Inspections',
+      'Channel Distribution',
+      'Sharing through text, email, QR code',
+      'Personalization',
+      'Digital Asset Management',
+      'Tracking & Analytics',
+      'Above-Property Selling',
+      'Administrative Capabilities'
     ]
   },
   {
@@ -42,12 +42,12 @@ const tabs: Tab[] = [
     label: 'Product Studio',
     title: 'Product Studio - Professional Media Production',
     features: [
-      '360° photography and virtual tour creation',
-      '3D modeling and CGI production',
-      'Drone video and aerial photography',
-      'Professional post-processing and editing',
-      'Consistent brand styling across all assets',
-      'Scalable production for multi-property portfolios'
+      '360° Photos',
+      '3D Models',
+      'Computer Generated Imagery (CGI)',
+      'Virtual Staging',
+      'Fly Through Video',
+      'Drone Footage'
     ]
   },
   {
@@ -55,13 +55,13 @@ const tabs: Tab[] = [
     label: 'Training & Support',
     title: 'Training & Support - Success at Every Step',
     features: [
-      'Dedicated customer success manager',
-      'One-on-one training sessions',
-      'Group workshops and best practices',
-      'On-demand resource library',
-      'Ongoing platform updates and enhancements',
-      'Responsive technical support',
-      'Regular check-ins and optimization reviews'
+      'Customer Success Managers',
+      'Customer Support',
+      'Video Guides',
+      'In-App Training',
+      'Webinar Training',
+      'In Person Training',
+      'Group Trainings at Your Events'
     ]
   }
 ]

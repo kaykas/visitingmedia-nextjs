@@ -54,18 +54,28 @@ export default function Home() {
             {/* Awards */}
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
+                <h3 className="text-lg font-bold mb-4">
+                  Named <strong>One of the Top Hotel Tech Apps of 2025</strong>
+                </h3>
                 <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center" style={{ minHeight: '200px' }}>
-                  <Image src="/images/awards/htr-awards-2025.png" alt="Top Hotel Tech Apps of 2025 - HotelTechReport" width={200} height={220} className="w-auto h-auto max-h-[180px] object-contain" />
+                  <Image src="/images/awards/htr-awards-2025.png" alt="HTR Awards" width={200} height={220} className="w-auto h-auto max-h-[180px] object-contain" />
                 </div>
               </div>
               <div className="text-center">
+                <h3 className="text-lg font-bold mb-4">
+                  <strong>Recommended by Hoteliers</strong>
+                </h3>
+                <p className="text-sm mb-4">Certificate of Excellence</p>
                 <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center" style={{ minHeight: '200px' }}>
-                  <Image src="/images/awards/certificate-excellence.png" alt="Certificate of Excellence - Recommended by Hoteliers" width={200} height={200} className="w-auto h-auto max-h-[180px] object-contain" />
+                  <Image src="/images/awards/certificate-excellence.png" alt="Certificate of Excellence" width={200} height={200} className="w-auto h-auto max-h-[180px] object-contain" />
                 </div>
               </div>
               <div className="text-center">
+                <h3 className="text-lg font-bold mb-4">
+                  HotelTechReport <strong>Certified Support Excellence</strong>
+                </h3>
                 <div className="bg-white p-6 rounded-lg shadow-lg flex items-center justify-center" style={{ minHeight: '200px' }}>
-                  <Image src="/images/awards/certified-support.png" alt="HotelTechReport Certified Support Excellence" width={200} height={200} className="w-auto h-auto max-h-[180px] object-contain" />
+                  <Image src="/images/awards/certified-support.png" alt="Customer Support" width={200} height={200} className="w-auto h-auto max-h-[180px] object-contain" />
                 </div>
               </div>
             </div>
@@ -77,7 +87,7 @@ export default function Home() {
           <div className="max-w-[900px] mx-auto px-6">
             <div className="border-l-4 border-[var(--color-gold)] pl-8">
               <blockquote className="text-xl lg:text-2xl mb-6 italic text-[var(--color-black-light)] font-[var(--font-secondary)]">
-                "It's not only easy to access and use but it allows you to show content that is tailored to the conversation you're having with your clients. It definitely helps us book business faster, especially in this market where everything is last minute."
+                "It's is not only easy to access and use but it allows you to show content that is tailored to the conversation you're having with your clients. It definitely helps us book business faster, especially in this market where everything is last minute."
               </blockquote>
               <div className="text-lg font-semibold">
                 Jonathan Leonardis
@@ -137,13 +147,13 @@ export default function Home() {
                   Engaging Virtual & In-Person Sales
                 </h3>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
-                  Empower your sales team with immersive virtual tours and interactive presentations that bring your spaces to life. Whether meeting in person or connecting remotely, deliver compelling experiences that help prospects visualize their events and drive faster booking decisions.
+                  SalesHub™ transforms sales presentations into dynamic, interactive Experiences that captivate audiences both in-person and online. Share PDFs, websites, virtual tours, diagrams — any tool your team needs to sell — with one single link at the click of a button, and customize those resources in real time, any time.
                 </p>
                 <Link
                   href="/solutions"
                   className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
                 >
-                  Learn About Our Platform
+                  LEARN ABOUT OUR PLATFORM
                 </Link>
               </div>
               <div className="order-first md:order-last">
@@ -172,17 +182,14 @@ export default function Home() {
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Virtual Media Production
                 </h3>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
-                  Professional 360° photography, 3D models, drone video, and CGI production services that create stunning immersive assets for your property.
-                </p>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
-                  Our production team handles everything from capture to post-processing, delivering high-quality virtual tours and media that showcase your venue at its best.
+                  From 360° photos to 3D models, drone video to CGI, Visiting Media captures and produces immersive media around the globe. Our service provides visuals of the highest quality loaded into our one-of-a-kind platform. With a variety of virtual tour options available, rest assured your hotels have access to the latest media, project-managed by our team from start to finish.
                 </p>
                 <Link
                   href="/solutions"
                   className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
                 >
-                  View Our Media Offerings
+                  VIEW OUR MEDIA OFFERINGS
                 </Link>
               </div>
             </div>
@@ -193,17 +200,14 @@ export default function Home() {
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Upgraded Channel Distribution
                 </h3>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
-                  Distribute your immersive content across all your sales channels - from your website and proposals to booking platforms and third-party sites.
-                </p>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
-                  Seamless integrations ensure prospects can explore your venue wherever they discover you, driving engagement and conversion at every touchpoint.
+                  Distribute immersive media through websites, brand.com, OTAs, booking engines, ebrochures, proposal tools and more, leveraging an immersive sales and marketing strategy. Our Level 1 Certified Customer Support team works with property and above-property stakeholders to maximize effectiveness on key channels.
                 </p>
                 <Link
                   href="/integrations"
                   className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
                 >
-                  Learn More
+                  LEARN MORE
                 </Link>
               </div>
               <div className="order-first md:order-last">
@@ -232,17 +236,14 @@ export default function Home() {
                 <h3 className="text-3xl lg:text-4xl font-bold mb-6">
                   Immersive Selling Strategy
                 </h3>
-                <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-4">
-                  Strategic consulting and best practices to maximize the impact of your immersive content and sales enablement tools.
-                </p>
                 <p className="text-lg text-[var(--color-black-light)] font-[var(--font-secondary)] leading-relaxed mb-6">
-                  Our team works with you to develop a customized approach that aligns with your sales process, team structure, and business goals.
+                  An immersive asset (i.e. 3D models or 360° photos) without a strategy is almost useless. Work beyond placing and sharing immersive assets separately and understand which assets perform better when, where and why. Gain a holistic approach, combing the best assets to achieve competitive advantage on virtual sales.
                 </p>
                 <Link
                   href="/request-demo"
                   className="inline-block bg-[var(--color-azure)] text-white px-8 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
                 >
-                  Book a Consultation
+                  BOOK A CONSULTATION
                 </Link>
               </div>
             </div>
