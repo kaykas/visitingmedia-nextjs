@@ -1,59 +1,56 @@
-import { client } from '@/lib/sanity.client'
-import { customersQuery } from '@/lib/sanity.queries'
+import Header from '@/components/Header'
 import Link from 'next/link'
-import Image from 'next/image'
-import { urlFor } from '@/lib/sanity.image'
 
-async function getCustomers() {
-  try {
-    return await client.fetch(customersQuery)
-  } catch (error) {
-    console.error('Error fetching customers:', error)
-    return []
-  }
-}
-
-export default async function CustomersPage() {
-  const customers = await getCustomers()
-
+export default function CustomersPage() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-12">Our Customers</h1>
+    <>
+      <Header />
+      <main>
+        {/* Hero Section */}
+        <section className="bg-[var(--color-gold)] text-[var(--color-black)] py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Our Customers</h1>
+            <p className="text-xl lg:text-2xl">Trusted by leading hospitality brands worldwide</p>
+          </div>
+        </section>
 
-        {customers.length === 0 ? (
-          <div className="text-center py-16">
-            <p className="text-gray-600 text-lg">
-              No customers yet. Add content through Sanity Studio at /studio
-            </p>
+        {/* Customer Logos */}
+        <section className="py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl text-center mb-12">Featured Customers</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+                <div
+                  key={i}
+                  className="w-32 h-20 bg-[var(--color-gray-light)] rounded flex items-center justify-center"
+                >
+                  Logo {i}
+                </div>
+              ))}
+            </div>
           </div>
-        ) : (
-          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {customers.map((customer: any) => (
-              <Link
-                key={customer._id}
-                href={`/customers/${customer.slug.current}`}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow flex flex-col items-center"
-              >
-                {customer.logo && (
-                  <div className="relative h-24 w-24 mb-4">
-                    <Image
-                      src={urlFor(customer.logo).width(200).height(200).url()}
-                      alt={customer.title}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                )}
-                <h2 className="text-xl font-bold text-center">{customer.title}</h2>
-                {customer.industry && (
-                  <p className="text-sm text-gray-500 mt-2">{customer.industry}</p>
-                )}
-              </Link>
-            ))}
+        </section>
+
+        {/* Case Studies */}
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
+          <div className="max-w-[1260px] mx-auto px-6">
+            <h2 className="text-3xl text-center mb-12">Success Stories</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {[1, 2].map((i) => (
+                <div key={i} className="bg-white p-8 shadow-lg rounded">
+                  <h3 className="text-2xl font-bold mb-4">Case Study {i}</h3>
+                  <p className="text-[var(--color-black-light)] mb-4 font-[var(--font-secondary)]">
+                    Learn how our customers are transforming their business with Visiting Media.
+                  </p>
+                  <Link href="#" className="text-[var(--color-azure)] font-semibold hover:text-[var(--color-azure-light)]">
+                    Read More →
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
-        )}
-      </div>
-    </main>
+        </section>
+      </main>
+    </>
   )
 }
