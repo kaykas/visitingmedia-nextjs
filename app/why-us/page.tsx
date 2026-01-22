@@ -166,7 +166,7 @@ export default function WhyUsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-white py-16 lg:py-24">
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-8">
               Request a Demo & Get Started Today
