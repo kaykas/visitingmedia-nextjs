@@ -45,7 +45,7 @@ export default function Home() {
         </section>
 
         {/* Trust Section */}
-        <section className="bg-white py-16 lg:py-20">
+        <section className="bg-[var(--color-gray-light)] py-16 lg:py-20">
           <div className="max-w-[1260px] mx-auto px-6">
             <h2 className="text-2xl lg:text-3xl text-center mb-12 font-normal">
               Trusted by hundreds of brands and thousands of companies worldwide
