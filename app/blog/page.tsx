@@ -24,14 +24,14 @@ export default async function BlogPage() {
       <Header />
       <main>
         {/* Hero Section */}
-        <section className="bg-[var(--color-black)] text-white py-24 lg:py-32">
+        <section className="bg-white py-24 lg:py-32">
           <div className="max-w-[1260px] mx-auto px-6">
-            <h1 className="text-4xl lg:text-6xl font-bold uppercase">Blog</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold uppercase text-[var(--color-black)]">Blog</h1>
           </div>
         </section>
 
         {/* Category Filters */}
-        <section className="bg-[var(--color-gray-light)] py-8">
+        <section className="bg-white py-8">
           <div className="max-w-[1260px] mx-auto px-6">
             <div className="flex flex-wrap justify-center gap-4">
               {categories.map((category) => (
@@ -90,14 +90,14 @@ export default async function BlogPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[var(--color-azure)] text-white py-16 lg:py-24">
+        <section className="bg-white py-16 lg:py-24">
           <div className="max-w-[1260px] mx-auto px-6 text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-[var(--color-black)]">
               Request a Demo & Get Started Today
             </h2>
             <Link
               href="/request-demo"
-              className="inline-block bg-white text-[var(--color-azure)] px-12 py-5 rounded hover:bg-[var(--color-gray-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
+              className="inline-block bg-[var(--color-azure)] text-white px-12 py-5 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold uppercase text-sm tracking-wider"
             >
               Request Demo
             </Link>
