@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--color-black)] text-white">
+    <footer className="bg-[#14232e] text-white">
       <div className="max-w-[1260px] mx-auto px-6 py-16 lg:py-20">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Column 1: Why Us */}

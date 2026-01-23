@@ -5,6 +5,10 @@
       "type": "wordpress"
     },
     {
+      "page": "homepage",
+      "type": "nextjs"
+    },
+    {
       "page": "why-us",
       "type": "wordpress"
     },
@@ -14,11 +18,19 @@
     },
     {
       "page": "testimonials",
+      "type": "wordpress"
+    },
+    {
+      "page": "testimonials",
       "type": "nextjs"
     },
     {
       "page": "customers",
       "type": "wordpress"
+    },
+    {
+      "page": "customers",
+      "type": "nextjs"
     },
     {
       "page": "community",
@@ -47,6 +59,10 @@
     {
       "page": "blog",
       "type": "wordpress"
+    },
+    {
+      "page": "blog",
+      "type": "nextjs"
     },
     {
       "page": "solutions",
@@ -57,26 +73,5 @@
       "type": "nextjs"
     }
   ],
-  "failed": [
-    {
-      "page": "homepage",
-      "type": "nextjs",
-      "error": "Navigation timeout of 60000 ms exceeded"
-    },
-    {
-      "page": "testimonials",
-      "type": "wordpress",
-      "error": "Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed."
-    },
-    {
-      "page": "customers",
-      "type": "nextjs",
-      "error": "Navigating frame was detached"
-    },
-    {
-      "page": "blog",
-      "type": "nextjs",
-      "error": "Navigation timeout of 60000 ms exceeded"
-    }
-  ]
+  "failed": []
 }

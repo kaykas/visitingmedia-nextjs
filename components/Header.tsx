@@ -25,9 +25,9 @@ export default function Header() {
   }
 
   return (
-    <header className="site-header bg-[var(--color-white-lighter)] sticky top-0 z-50 shadow-sm">
+    <header className="site-header bg-white sticky top-0 z-50 shadow-sm">
       <div className="max-w-[1260px] mx-auto px-6">
-        <div className="flex items-center justify-between h-20 lg:h-24">
+        <div className="flex items-center justify-between h-[68px] lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center" onClick={closeAllMenus}>
             <img
@@ -38,12 +38,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-4">
             {/* Why Us Dropdown */}
             <div className="relative group">
               <button
                 onMouseEnter={() => setActiveDropdown('whyus')}
-                className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors py-2"
+                className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] transition-colors py-[27px] px-[16px] text-[16px]"
               >
                 Why Us?
               </button>
@@ -72,7 +72,7 @@ export default function Header() {
             <div className="relative group">
               <button
                 onMouseEnter={() => setActiveDropdown('solutions')}
-                className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors py-2"
+                className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] transition-colors py-[27px] px-[16px] text-[16px]"
               >
                 Solutions
               </button>
@@ -113,28 +113,28 @@ export default function Header() {
 
             <Link
               href="/customers"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Customers
             </Link>
 
             <Link
               href="/testimonials"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Testimonials
             </Link>
 
             <Link
               href="/community"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Community
             </Link>
 
             <Link
               href="/blog"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Blog
             </Link>
@@ -143,21 +143,21 @@ export default function Header() {
               href="https://login.visitingmedia.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Login
             </a>
 
             <Link
               href="/request-demo"
-              className="text-[var(--color-black)] hover:text-[var(--color-azure)] font-semibold font-[var(--font-secondary)] transition-colors"
+              className="text-[#191b1e] hover:underline font-medium font-[var(--font-secondary)] py-[27px] px-[9px] text-[12px] tracking-[1.6px]"
             >
               Contact
             </Link>
 
             <Link
               href="/request-demo"
-              className="bg-[var(--color-azure)] text-white px-6 py-3 rounded hover:bg-[var(--color-azure-light)] transition-colors font-semibold font-[var(--font-secondary)] uppercase text-sm tracking-wider"
+              className="bg-[#4c7c8a] text-white px-6 py-3 rounded-full hover:bg-[#7096a1] transition-colors font-semibold uppercase text-[13px] tracking-[1.63px] ml-[13px]"
             >
               Request Demo
             </Link>

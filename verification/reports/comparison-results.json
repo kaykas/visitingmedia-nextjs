@@ -2,52 +2,52 @@
   {
     "page": "homepage",
     "matched": false,
-    "diffPercentage": "90.68",
-    "numDiffPixels": 13549605,
+    "diffPercentage": "66.10",
+    "numDiffPixels": 9876049,
     "totalPixels": 14941440,
     "dimensions": {
       "wordpress": "1920x7782",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x5292"
     }
   },
   {
     "page": "why-us",
     "matched": false,
-    "diffPercentage": "90.50",
-    "numDiffPixels": 5918269,
+    "diffPercentage": "54.27",
+    "numDiffPixels": 3548753,
     "totalPixels": 6539520,
     "dimensions": {
       "wordpress": "1920x3406",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x2649"
     }
   },
   {
     "page": "testimonials",
     "matched": false,
-    "diffPercentage": "97.41",
-    "numDiffPixels": 30342865,
+    "diffPercentage": "92.15",
+    "numDiffPixels": 28703872,
     "totalPixels": 31150080,
     "dimensions": {
       "wordpress": "1920x16224",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x4377"
     }
   },
   {
     "page": "customers",
     "matched": false,
-    "diffPercentage": "83.30",
-    "numDiffPixels": 18552366,
-    "totalPixels": 22272000,
+    "diffPercentage": "72.21",
+    "numDiffPixels": 5476396,
+    "totalPixels": 7584000,
     "dimensions": {
       "wordpress": "1920x3950",
-      "nextjs": "1920x11600"
+      "nextjs": "1920x2018"
     }
   },
   {
     "page": "community",
     "matched": false,
-    "diffPercentage": "80.41",
-    "numDiffPixels": 1667452,
+    "diffPercentage": "62.82",
+    "numDiffPixels": 1302575,
     "totalPixels": 2073600,
     "dimensions": {
       "wordpress": "1920x1080",
@@ -57,45 +57,45 @@
   {
     "page": "integration",
     "matched": false,
-    "diffPercentage": "90.61",
-    "numDiffPixels": 4229178,
+    "diffPercentage": "69.49",
+    "numDiffPixels": 3243554,
     "totalPixels": 4667520,
     "dimensions": {
       "wordpress": "1920x2431",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x1365"
     }
   },
   {
     "page": "request-demo",
     "matched": false,
-    "diffPercentage": "84.91",
-    "numDiffPixels": 2336291,
-    "totalPixels": 2751360,
+    "diffPercentage": "45.15",
+    "numDiffPixels": 1366052,
+    "totalPixels": 3025920,
     "dimensions": {
       "wordpress": "1920x1433",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x1576"
     }
   },
   {
     "page": "blog",
     "matched": false,
-    "diffPercentage": "90.70",
-    "numDiffPixels": 18568045,
-    "totalPixels": 20472960,
+    "diffPercentage": "78.79",
+    "numDiffPixels": 5041898,
+    "totalPixels": 6399360,
     "dimensions": {
       "wordpress": "1920x3333",
-      "nextjs": "1920x10663"
+      "nextjs": "1920x1209"
     }
   },
   {
     "page": "solutions",
     "matched": false,
-    "diffPercentage": "88.42",
-    "numDiffPixels": 3383321,
-    "totalPixels": 3826560,
+    "diffPercentage": "84.54",
+    "numDiffPixels": 5404976,
+    "totalPixels": 6393600,
     "dimensions": {
       "wordpress": "1920x1993",
-      "nextjs": "1920x1080"
+      "nextjs": "1920x3330"
     }
   }
 ]
